@@ -3,7 +3,7 @@ import random
 def deposit():
     while True:
         print("="*25+" CASH DEPOSIT "+"="*25)
-        print("❗️❗️please deposit at least 100$",)
+        print("please deposit at least 100$",)
         amount = input("Deposit cash to your account (enter amount of cash) : ")
         if amount.isdigit():
             amount = int(amount)
